@@ -3,6 +3,8 @@ body {
 }
 
 .white-box{
+    width:300px;
+    margin:auto;
     background-color: white;
     color: black
 }
