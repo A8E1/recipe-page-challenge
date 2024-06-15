@@ -1,3 +1,4 @@
+/*CSS selector used to create/import fonts, allowing you to name them as well */
 @font-face{
     font-family: outfit;
     src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
@@ -9,12 +10,51 @@
 
 }
 
-h1{
-    font-family: yungSerif;
-}
-
+/*Known as a CSS reset, this strips the margins and spacing btwn elements like <p>
+and <section>, allowing us to look at a blank slate and customize accordingly*/
 * {
     padding: 0;
+    /*padding = used to generate space around an element's content INSIDE defined borders*/
     margin: 0;
+    /*margin = used to generate space around an element's content OUTSIDE defined borders*/
+    width: 100%;
 
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+
+}
+
+main {
+    display: flex; /**/
+    flex-direction: column; /*makes flex container go vertical*/
+    justify-content: center; /*aligns flex items centered to the container*/
+    background-color: white;
+    align-items: center; /*centers items in container*/
+    width: 450px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+h1, h2{
+    font-family: yungSerif;
+    font-weight: normal;
+    padding-bottom: 15px;
+
+}
+
+h1{
+    font-size: 27px;
+    color: hsl(24,5%,18%);
+    padding-top: 12px;
+
+}
+
+
