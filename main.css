@@ -49,7 +49,7 @@ h1, h2{
     padding-bottom: 15px;
 
 }
-
+/*penis*/
 h1{
     font-size: 27px;
     color: hsl(24,5%,18%);
@@ -58,3 +58,48 @@ h1{
 }
 
 
+#b4-prep img {
+    border-radius: 10px;
+
+}
+
+#b4-prep p{
+    font-family: outfit;
+    color: rgb(101, 101, 101);
+    font-size: x-small;
+}
+
+#b4-prep {
+    margin: 10px;
+}
+
+#prep-time div{
+    background-color: rgb(247, 237, 247);
+    margin: 20px 10px;
+    
+}
+#prep-time h3 {
+    font-family: outfit;
+    color: purple;
+    padding: 10px;
+    padding-bottom: 0px;
+    font-size: small;
+}
+#prep-time ul {
+    list-style-position: inside;
+    margin: 5px;
+    padding: 15px;
+    padding-top: 0px;
+    font-family: outfit;
+    font-size: x-small;
+
+}
+
+#prep-time li {
+    padding: 3px;
+    color: rgb(72, 71, 71);
+}
+
+#prep-time span {
+    font-weight: bold;
+}
